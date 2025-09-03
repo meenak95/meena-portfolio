@@ -9,18 +9,16 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 function App() {
-  console.log('App component is rendering with full portfolio');
   return (
-    <div className="App">
-      <div style={{position: 'fixed', top: 0, left: 0, background: 'red', color: 'white', padding: '5px', zIndex: 9999}}>
-        Portfolio Loaded: {new Date().toLocaleTimeString()}
-      </div>
+    <div className="min-h-screen bg-black text-white">
       <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );
