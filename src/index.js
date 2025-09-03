@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// Disable CRA mounting when a mirrored static app is present.
+// Disable CRA mounting when the mirrored static app is present (dev or prod).
 const rootEl = document.getElementById('root');
-const shouldMountReactApp = !document.querySelector('script[src*="static/js/main."]');
+const isMirroredPresent = !!document.querySelector('script[src*="static/js/main"]')
+  || !!document.querySelector('script[src*="static/js/vendors"]')
+  || !!document.querySelector('html[data-theme="base44"]');
+const shouldMountReactApp = !isMirroredPresent;
 
 if (shouldMountReactApp && rootEl) {
   const root = ReactDOM.createRoot(rootEl);
