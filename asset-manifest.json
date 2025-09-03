@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/meena-portfolio/static/css/main.e2ed3b3a.css",
-    "main.js": "/meena-portfolio/static/js/main.e6186cb1.js",
+    "main.js": "/meena-portfolio/static/js/main.60f95b42.js",
     "static/js/453.5f2ebf35.chunk.js": "/meena-portfolio/static/js/453.5f2ebf35.chunk.js",
     "index.html": "/meena-portfolio/index.html",
     "main.e2ed3b3a.css.map": "/meena-portfolio/static/css/main.e2ed3b3a.css.map",
-    "main.e6186cb1.js.map": "/meena-portfolio/static/js/main.e6186cb1.js.map",
+    "main.60f95b42.js.map": "/meena-portfolio/static/js/main.60f95b42.js.map",
     "453.5f2ebf35.chunk.js.map": "/meena-portfolio/static/js/453.5f2ebf35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2ed3b3a.css",
-    "static/js/main.e6186cb1.js"
+    "static/js/main.60f95b42.js"
   ]
 }
